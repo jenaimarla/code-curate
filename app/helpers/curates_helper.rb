@@ -1,0 +1,2 @@
+module CuratesHelper
+end
