@@ -1,3 +1,72 @@
 // Place all the styles related to the codes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main-container, .contact, .back-button {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.main-container {
+  h1 {
+    font-size: 100px;
+    color: #ff0000
+  }
+}
+
+.contact, .back-button {
+   a {
+    font-size: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff0000;
+    color: #fffff0;
+  }
+}
+
+
+#code-link {
+  h1 {
+    font-size: 150px;
+  }
+  a {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff0000;
+    color: #fffff0;
+  }
+  }
+
+
+@media(max-width: 767px)
+
+  {
+
+  .main-container, .contact, .back-button {
+    text-align: center;
+  }
+
+
+#code-link {
+  h1 {
+    font-size: 100px;
+  }
+  a {
+    color: #fffff0;
+  }
+  }
+
+.contact, .back-button {
+   a {
+    font-size: 30px;
+    // -webkit-text-stroke-width: 1px;
+    // -webkit-text-stroke-color: #ff0000;
+    color: #fffff0;
+  }
+}
+ .code-text {
+    h1 {
+      font-size: 50px;
+      color: #fffff0;
+    }
+  }
+}
