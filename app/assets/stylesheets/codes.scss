@@ -2,21 +2,38 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.main-container, .contact, .back-button {
+#code-text, #code-link, .contact, .back-button, .copyright {
   text-align: center;
-  width: 900px;
   margin: 0 auto;
+   h1 {
+    font-family: 'Anton';
+  }
 }
 
-.main-container {
+#code-text {
   h1 {
     font-size: 100px;
     color: #ff0000
   }
 }
 
+#code-link {
+  h1 {
+    font-size: 150px;
+  }
+  a {
+    text-decoration: none;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff0000;
+    color: #fffff0;
+    font-weight: lighter;
+  }
+  }
+
 .contact, .back-button {
    a {
+    text-decoration: none;
+    font-weight: lighter;
     font-size: 50px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ff0000;
@@ -24,49 +41,55 @@
   }
 }
 
+.footer {
+  padding-top: 50px;
+}
 
-#code-link {
+.copyright {
   h1 {
-    font-size: 150px;
+    font-weight: lighter;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #ff0000;
   }
-  a {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #ff0000;
-    color: #fffff0;
-  }
-  }
-
+}
 
 @media(max-width: 767px)
 
-  {
+{
 
-  .main-container, .contact, .back-button {
+  #code-text {
     text-align: center;
-  }
-
-
-#code-link {
-  h1 {
-    font-size: 100px;
-  }
-  a {
-    color: #fffff0;
-  }
-  }
-
-.contact, .back-button {
-   a {
-    font-size: 30px;
-    // -webkit-text-stroke-width: 1px;
-    // -webkit-text-stroke-color: #ff0000;
-    color: #fffff0;
-  }
-}
- .code-text {
+    margin: 0 auto;
     h1 {
       font-size: 50px;
-      color: #fffff0;
+      font-weight: lighter;
+    }
+    a {
+      font-size: 50px;
     }
   }
+
+
+  #code-link {
+    text-align: center;
+    margin: 0 auto;
+      h1 {
+        font-size: 100px;
+        font-weight: lighter;
+      }
+      a {
+        color: #fffff0;
+      }
+    }
+
+  .contact, .back-button {
+     a {
+      font-size: 30px;
+      color: #fffff0;
+      font-weight: lighter;
+    }
+  }
+
+
 }
