@@ -7,12 +7,29 @@
 }
 
 .flipShow {
-  animate: flipShow 2s ease
+  animate: flipShow 2s ease;
 }
 
 .flipHide {
-  animate: flipHide 2s ease
+  animate: flipHide 2s ease;
 }
+
+@keyframes flipShow {
+  0% { transform: none; }
+  25% { transform: translate3d(10px 10px 10px); }
+  50% { transform: translate3d(20px 20px 20px); }
+  75% { transform: translate3d(10px 10px 10px); }
+  100% { transform: none; }
+}
+
+@keyframes flipHide {
+  0% { transform: none; }
+  25% { transform: translate3d(10px 10px 10px); }
+  50% { transform: translate3d(20px 20px 20px); }
+  75% { transform: translate3d(10px 10px 10px); }
+  100% { transform: none; }
+}
+
 
 
 #code-text, #code-path, .contact, .back-button, .copyright {
@@ -219,20 +236,5 @@
 
 }
 
-@keyframes flipShow {
-  0% { transform: none; }
-  25% { transform: translate3d(10px 10px 10px); }
-  50% { transform: translate3d(20px 20px 20px); }
-  75% { transform: translate3d(10px 10px 10px); }
-  100% { transform: none; }
-}
-
-@keyframes flipHide {
-  0% { transform: none; }
-  25% { transform: translate3d(10px 10px 10px); }
-  50% { transform: translate3d(20px 20px 20px); }
-  75% { transform: translate3d(10px 10px 10px); }
-  100% { transform: none; }
-}
 
 

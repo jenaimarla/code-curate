@@ -1,6 +1,6 @@
 class CuratesController < ApplicationController
 
-   def index
+  def index
     @curates = Curate.all
   end
 

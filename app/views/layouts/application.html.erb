@@ -4,27 +4,12 @@
     <title>Marla SH</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag  'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application'%>
   </head>
 
   <body>
     <%= yield %>
-
-    <script>
-
-      const link = document.querySelector('#code-path') // Ton lien
-      const blockShow = document.querySelector('.flipShow') // Le block qui apparaît
-      const blockHide = document.querySelector('.flipHide') // Le block qui disparait
-
-      link.addEventListener('click', () => {
-        blockShow.classList.add('flipShow')
-        blockHide.classList.add('flipHide')
-      })
-
-    </script>
-
   </body>
 
 </html>

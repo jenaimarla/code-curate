@@ -1,5 +1,5 @@
 <div class="main-container">
-  <div class="flipShow">
+  <div class="flipHide">
     <div id='code-path'>
       <h1> <%= link_to '1 CODE', codes_path %></h1>
     </div>
@@ -24,8 +24,8 @@
   </div>
 
 
-  <div class="flipHide">
-    <div id='curate-path'>
+  <div class="flipShow">
+    <div id='code-path'>
       <h1>  <%= link_to '2 CURATE', codes_path %></h1>
     </div>
 
@@ -50,4 +50,6 @@
   </div>
 </div>
 
+
+<%= javascript_pack_tag "flip" %>
 
