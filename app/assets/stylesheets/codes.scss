@@ -2,7 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#code-text, #code-link, .contact, .back-button, .copyright {
+.main-container {
+  height: 100vh;
+}
+
+.flipShow {
+  animate: flipShow 2s ease
+}
+
+.flipHide {
+  animate: flipHide 2s ease
+}
+
+
+#code-text, #code-path, .contact, .back-button, .copyright {
   text-align: center;
   margin: 0 auto;
    h1 {
@@ -17,7 +30,7 @@
   }
 }
 
-#code-link {
+#code-path {
   h1 {
     font-size: 150px;
   }
@@ -54,6 +67,19 @@
   }
 }
 
+
+.rotate {
+   -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+     transform: rotate(90deg);
+}
+
+.normal {
+   -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+     transform: rotate(0deg);
+}
+
 @media(max-width: 767px)
 
 {
@@ -71,7 +97,7 @@
   }
 
 
-  #code-link {
+  #code-path {
     text-align: center;
     margin: 0 auto;
       h1 {
@@ -91,5 +117,122 @@
     }
   }
 
+}
+
+#curate-text, #curate-path, .contact-curate, .back-button-curate, .copyright {
+  text-align: center;
+  margin: 0 auto;
+  h1 {
+    font-family: 'Anton';
+  }
+}
+
+#curate-text {
+  h1 {
+    font-weight: lighter;
+    font-size: 100px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff0000;
+    color: #fffff0;
+  }
+}
+
+#curate-path {
+  h1 {
+    font-size: 150px;
+    font-weight: lighter;
+  }
+  a {
+    text-decoration: none;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff0000;
+    color: #ff0000;
+  }
+  }
+
+.contact-curate, .back-button-curate {
+  h1 {
+    font-weight: lighter;
+  }
+   a {
+    text-decoration:none;
+    font-size: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff0000;
+    color: #ff0000;
+  }
+}
+
+.footer {
+  padding-top: 50px;
+}
+
+.copyright {
+  h1 {
+    font-weight: lighter;
+    font-size: 15px;
+    letter-spacing: 1px;
+    // -webkit-text-stroke-width: 1px;
+    // -webkit-text-stroke-color: #ff0000;
+    color: #ff0000;
+  }
+}
+
+
+@media(max-width: 767px)
+
+{
+
+  #curate-text {
+    text-align: center;
+    margin: 0 auto;
+    h1 {
+      font-size: 50px;
+      font-weight: lighter;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #ff0000;
+      color: #fffff0;
+    }
+
+  }
+
+
+  #curate-path {
+    text-align: center;
+    margin: 0 auto;
+      h1 {
+        font-size: 100px;
+        font-weight: lighter;
+      }
+      a {
+        color: #ff0000;
+      }
+    }
+
+  .contact-curate, .back-button-curate {
+     a {
+      font-size: 30px;
+      color: #ff0000;
+      font-weight: lighter;
+    }
+  }
 
 }
+
+@keyframes flipShow {
+  0% { transform: none; }
+  25% { transform: translate3d(10px 10px 10px); }
+  50% { transform: translate3d(20px 20px 20px); }
+  75% { transform: translate3d(10px 10px 10px); }
+  100% { transform: none; }
+}
+
+@keyframes flipHide {
+  0% { transform: none; }
+  25% { transform: translate3d(10px 10px 10px); }
+  50% { transform: translate3d(20px 20px 20px); }
+  75% { transform: translate3d(10px 10px 10px); }
+  100% { transform: none; }
+}
+
+
