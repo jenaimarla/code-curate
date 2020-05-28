@@ -2,37 +2,43 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+// ANIMATION POUR LE FLIP
+
+  .flipShow {
+    animate: flipShow 2s ease;
+  }
+
+  .flipHide {
+    animate: flipHide 2s ease;
+  }
+
+  @keyframes flipShow {
+    0% { transform: none; }
+    25% { transform: translate3d(10px 10px 10px); }
+    50% { transform: translate3d(20px 20px 20px); }
+    75% { transform: translate3d(10px 10px 10px); }
+    100% { transform: none; }
+  }
+
+  @keyframes flipHide {
+    0% { transform: none; }
+    25% { transform: translate3d(10px 10px 10px); }
+    50% { transform: translate3d(20px 20px 20px); }
+    75% { transform: translate3d(10px 10px 10px); }
+    100% { transform: none; }
+  }
+
 .main-container {
   height: 100vh;
 }
 
-.flipShow {
-  animate: flipShow 2s ease;
+.flex {
+  display: flex;
+  justify-content: space-around;
 }
 
-.flipHide {
-  animate: flipHide 2s ease;
-}
-
-@keyframes flipShow {
-  0% { transform: none; }
-  25% { transform: translate3d(10px 10px 10px); }
-  50% { transform: translate3d(20px 20px 20px); }
-  75% { transform: translate3d(10px 10px 10px); }
-  100% { transform: none; }
-}
-
-@keyframes flipHide {
-  0% { transform: none; }
-  25% { transform: translate3d(10px 10px 10px); }
-  50% { transform: translate3d(20px 20px 20px); }
-  75% { transform: translate3d(10px 10px 10px); }
-  100% { transform: none; }
-}
-
-
-
-#code-text, #code-path, .contact, .back-button, .copyright {
+.contact, .back-button, .copyright {
   text-align: center;
   margin: 0 auto;
    h1 {
@@ -40,16 +46,25 @@
   }
 }
 
+
+// CSS POUR LA PAGE CODE
+
 #code-text {
+  margin-right: 100px;
+  text-align: center;
   h1 {
+    font-family: 'Anton';
     font-size: 100px;
-    color: #ff0000
+    color: #ff0000;
   }
 }
 
 #code-path {
+  text-align: left;
   h1 {
+    font-family: 'Anton';
     font-size: 150px;
+    writing-mode: vertical-rl;
   }
   a {
     text-decoration: none;
@@ -84,59 +99,9 @@
   }
 }
 
+// CSS POUR LA PAGE DE CURATE
 
-.rotate {
-   -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-     transform: rotate(90deg);
-}
-
-.normal {
-   -ms-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-     transform: rotate(0deg);
-}
-
-@media(max-width: 767px)
-
-{
-
-  #code-text {
-    text-align: center;
-    margin: 0 auto;
-    h1 {
-      font-size: 50px;
-      font-weight: lighter;
-    }
-    a {
-      font-size: 50px;
-    }
-  }
-
-
-  #code-path {
-    text-align: center;
-    margin: 0 auto;
-      h1 {
-        font-size: 100px;
-        font-weight: lighter;
-      }
-      a {
-        color: #fffff0;
-      }
-    }
-
-  .contact, .back-button {
-     a {
-      font-size: 30px;
-      color: #fffff0;
-      font-weight: lighter;
-    }
-  }
-
-}
-
-#curate-text, #curate-path, .contact-curate, .back-button-curate, .copyright {
+.contact-curate, .back-button-curate, .copyright {
   text-align: center;
   margin: 0 auto;
   h1 {
@@ -144,8 +109,18 @@
   }
 }
 
-#curate-text {
+#curate-path {
+  text-align: right;
   h1 {
+    font-family: 'Anton';
+  }
+}
+
+#curate-text {
+  margin-right: 100px;
+  text-align: center;
+  h1 {
+    font-family: 'Anton';
     font-weight: lighter;
     font-size: 100px;
     -webkit-text-stroke-width: 1px;
@@ -155,9 +130,12 @@
 }
 
 #curate-path {
+  text-align: left;
   h1 {
     font-size: 150px;
     font-weight: lighter;
+    writing-mode: vertical-rl;
+    // text-orientation: upright;
   }
   a {
     text-decoration: none;
@@ -180,25 +158,61 @@
   }
 }
 
-.footer {
-  padding-top: 50px;
-}
+// .rotate {
+//    -ms-transform: rotate(90deg);
+//     -webkit-transform: rotate(90deg);
+//      transform: rotate(90deg);
+// }
 
-.copyright {
-  h1 {
-    font-weight: lighter;
-    font-size: 15px;
-    letter-spacing: 1px;
-    // -webkit-text-stroke-width: 1px;
-    // -webkit-text-stroke-color: #ff0000;
-    color: #ff0000;
-  }
-}
+// .normal {
+//    -ms-transform: rotate(0deg);
+//     -webkit-transform: rotate(0deg);
+//      transform: rotate(0deg);
+// }
 
+
+// RESPONSIVENESS
 
 @media(max-width: 767px)
 
 {
+  .flex {
+    display: inline-block;
+  }
+
+
+  #code-text {
+    text-align: center;
+    margin: 0 auto;
+    h1 {
+      font-size: 50px;
+      font-weight: lighter;
+    }
+    a {
+      font-size: 50px;
+    }
+  }
+
+  #code-path {
+    text-align: center;
+    margin: 0 auto;
+      h1 {
+        writing-mode: horizontal-tb;
+        font-size: 100px;
+        font-weight: lighter;
+      }
+      a {
+        color: #fffff0;
+      }
+    }
+
+  .contact, .back-button {
+     a {
+      font-size: 30px;
+      color: #fffff0;
+      font-weight: lighter;
+    }
+  }
 
   #curate-text {
     text-align: center;
@@ -213,13 +227,13 @@
 
   }
 
-
   #curate-path {
     text-align: center;
     margin: 0 auto;
       h1 {
         font-size: 100px;
         font-weight: lighter;
+        writing-mode: horizontal-tb;
       }
       a {
         color: #ff0000;
@@ -234,7 +248,17 @@
     }
   }
 
+  .footer {
+    margin-top: 0px;
+  }
+
 }
+
+
+
+
+
+
 
 
 
