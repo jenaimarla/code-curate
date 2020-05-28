@@ -50,7 +50,8 @@
 // CSS POUR LA PAGE CODE
 
 #code-text {
-  margin-right: 100px;
+  letter-spacing: 0.1em;
+  line-height: 110px;
   text-align: center;
   h1 {
     font-family: 'Anton';
@@ -117,7 +118,8 @@
 }
 
 #curate-text {
-  margin-right: 100px;
+  letter-spacing: 0.1em;
+  line-height: 110px;
   text-align: center;
   h1 {
     font-family: 'Anton';
@@ -182,6 +184,8 @@
 
 
   #code-text {
+    letter-spacing: 0.1em;
+    line-height: 60px;
     text-align: center;
     margin: 0 auto;
     h1 {
@@ -215,6 +219,8 @@
   }
 
   #curate-text {
+    letter-spacing: 0.1em;
+    line-height: 60px;
     text-align: center;
     margin: 0 auto;
     h1 {
