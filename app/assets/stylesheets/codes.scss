@@ -38,7 +38,7 @@
   justify-content: space-around;
 }
 
-.contact, .back-button, .copyright {
+.contact, .ig,.back-button, .copyright {
   text-align: center;
   margin: 0 auto;
    h1 {
@@ -77,10 +77,10 @@
   }
   }
 
-.contact, .back-button {
+.contact, .ig, .back-button {
   letter-spacing: 0.07vw;
   line-height: 1.1;
-   a {
+   h1, a {
     text-decoration: none;
     font-weight: lighter;
     font-size: 50px;
@@ -105,7 +105,7 @@
 
 // CSS POUR LA PAGE DE CURATE
 
-.contact-curate, .back-button-curate, .copyright {
+.contact-curate, .ig-curate,.back-button-curate, .copyright {
   letter-spacing: -0.1vw;
   line-height: 1.1;
   text-align: center;
@@ -153,7 +153,7 @@
   }
   }
 
-.contact-curate, .back-button-curate {
+.contact-curate, .ig-curate, .back-button-curate {
   h1 {
     font-weight: lighter;
   }
@@ -216,7 +216,7 @@ and (max-width : 812px)
       }
     }
 
-  .contact, .back-button {
+  .contact, .ig, .back-button {
      a {
       letter-spacing: 0.1vw;
       font-size: 30px;
@@ -253,7 +253,7 @@ and (max-width : 812px)
       }
     }
 
-  .contact-curate, .back-button-curate {
+  .contact-curate, .ig-curate, .back-button-curate {
      a {
       letter-spacing: 0.1vw;
       font-size: 30px;
@@ -313,7 +313,7 @@ and (max-width : 568px)
       }
     }
 
-  .contact, .back-button {
+  .contact, .ig, .back-button {
      a {
       letter-spacing: 0.1vw;
       font-size: 30px;
@@ -350,7 +350,7 @@ and (max-width : 568px)
       }
     }
 
-  .contact-curate, .back-button-curate {
+  .contact-curate, .ig-curate, .back-button-curate {
      a {
       letter-spacing: 0.1vw;
       font-size: 30px;
