@@ -39,8 +39,6 @@
   }
 
 
-
-
 .footer {
   padding-top: 50px;
 }
@@ -104,3 +102,70 @@ and (max-width : 812px)
 
 
 }
+
+// IPHONE 6,7,8 LANDSCAPE PORTRAIT
+@media only screen
+and (min-width : 375px)
+and (max-width : 667px)
+
+{
+
+ .footer-home {
+    margin-top: 240px;
+    h1 {
+      font-size: 10px;
+    }
+  }
+
+}
+
+
+// IPHONE 5&5s LANDSCAPE PORTRAIT
+@media only screen
+and (min-width : 320px)
+and (max-width : 568px)
+{
+
+html {
+    background-color: #fffff0;
+  }
+
+
+  #home-text {
+      text-align: center;
+      h1 {
+        font-size: 10px;
+        font-family: 'Anton';
+        font-weight: lighter;
+      }
+      a {
+        text-decoration: none;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #ff0000;
+        color: #fffff0;
+        font-weight: lighter;
+      }
+
+    }
+
+  .name {
+    text-align:center;
+    h1 {
+      font-size: 90px;
+    }
+    a {
+      text-decoration: none;
+      color: #ff0000;
+    }
+  }
+
+  .footer-home {
+    margin-top: 190px;
+    h1 {
+      font-size: 10px;
+    }
+  }
+
+}
+
+

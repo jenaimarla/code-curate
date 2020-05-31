@@ -33,7 +33,7 @@
   height: 100vh;
 }
 
-.flex {
+.flex, .flex-curate {
   display: flex;
   justify-content: space-around;
 }
@@ -170,14 +170,22 @@
 
 // RESPONSIVENESS
 
+// IPHONE X LANDSCAPE PORTRAIT
 @media only screen
 and (min-width : 375px)
 and (max-width : 812px)
 {
 
 
-  .flex {
+  .flex-curate {
     display: inline-block;
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column-reverse;
   }
 
 
@@ -210,7 +218,7 @@ and (max-width : 812px)
 
   .contact, .back-button {
      a {
-      letter-spacing: 2px;
+      letter-spacing: 0.1vw;
       font-size: 30px;
       color: #fffff0;
       font-weight: lighter;
@@ -218,14 +226,14 @@ and (max-width : 812px)
   }
 
   #curate-text {
-    letter-spacing: -0.3vw;
+    letter-spacing: 0.2vw;
     line-height: 1.1;
     text-align: center;
     margin: 0 auto;
     h1 {
       font-size: 50px;
       font-weight: lighter;
-      -webkit-text-stroke-width: 2.5px;
+      -webkit-text-stroke-width: 2.1px;
       -webkit-text-stroke-color: #ff0000;
       color: #fffff0;
     }
@@ -247,6 +255,7 @@ and (max-width : 812px)
 
   .contact-curate, .back-button-curate {
      a {
+      letter-spacing: 0.1vw;
       font-size: 30px;
       color: #ff0000;
       font-weight: lighter;
@@ -259,7 +268,108 @@ and (max-width : 812px)
 
 }
 
+// IPHONE 5&5s LANDSCAPE PORTRAIT
+@media only screen
+and (min-width : 320px)
+and (max-width : 568px)
+{
 
+.flex-curate {
+    display: inline-block;
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+
+
+  #code-text {
+    letter-spacing: -0.3vw;
+    line-height: 1.1;
+    text-align: center;
+    margin: 0 auto;
+    h1 {
+      font-size: 40px;
+      font-weight: lighter;
+    }
+    a {
+      font-size: 50px;
+    }
+  }
+
+  #code-path {
+    text-align: center;
+    margin: 0 auto;
+      h1 {
+        writing-mode: horizontal-tb;
+        font-size: 70px;
+        font-weight: lighter;
+      }
+      a {
+        color: #fffff0;
+      }
+    }
+
+  .contact, .back-button {
+     a {
+      letter-spacing: 0.1vw;
+      font-size: 30px;
+      color: #fffff0;
+      font-weight: lighter;
+    }
+  }
+
+  #curate-text {
+    letter-spacing: 0.2vw;
+    line-height: 1.1;
+    text-align: center;
+    margin: 0 auto;
+    h1 {
+      font-size: 40px;
+      font-weight: lighter;
+      -webkit-text-stroke-width: 2.1px;
+      -webkit-text-stroke-color: #ff0000;
+      color: #fffff0;
+    }
+
+  }
+
+  #curate-path {
+    text-align: center;
+    margin: 0 auto;
+      h1 {
+        font-size: 70px;
+        font-weight: lighter;
+        writing-mode: horizontal-tb;
+      }
+      a {
+        color: #ff0000;
+      }
+    }
+
+  .contact-curate, .back-button-curate {
+     a {
+      letter-spacing: 0.1vw;
+      font-size: 30px;
+      color: #ff0000;
+      font-weight: lighter;
+    }
+  }
+
+  .footer {
+    margin-top: 0px;
+    .copyright {
+      h1 {
+        font-size: 11px;
+      }
+    }
+  }
+
+
+}
 
 
 
