@@ -6,11 +6,11 @@
 // ANIMATION POUR LE FLIP
 
   .flipShow {
-    animate: flipShow 2s ease;
+    animation: flipShow 2s ease;
   }
 
   .flipHide {
-    animate: flipHide 2s ease;
+    animation: flipHide 2s ease;
   }
 
   @keyframes flipShow {
