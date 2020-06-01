@@ -38,7 +38,7 @@
   justify-content: space-around;
 }
 
-.contact, .ig,.back-button, .copyright {
+.info-code, .copyright {
   text-align: center;
   margin: 0 auto;
    h1 {
@@ -77,7 +77,7 @@
   }
   }
 
-.contact, .ig, .back-button {
+.info-code {
   letter-spacing: 0.07vw;
   line-height: 1.1;
    h1, a {
@@ -105,7 +105,7 @@
 
 // CSS POUR LA PAGE DE CURATE
 
-.contact-curate, .ig-curate,.back-button-curate, .copyright {
+.info-curate, .copyright {
   letter-spacing: -0.1vw;
   line-height: 1.1;
   text-align: center;
@@ -153,7 +153,7 @@
   }
   }
 
-.contact-curate, .ig-curate, .back-button-curate {
+.info-curate {
   h1 {
     font-weight: lighter;
   }
@@ -216,7 +216,7 @@ and (max-width : 812px)
       }
     }
 
-  .contact, .ig, .back-button {
+  .info-code {
      a {
       letter-spacing: 0.3vw;
       font-size: 30px;
@@ -253,7 +253,7 @@ and (max-width : 812px)
       }
     }
 
-  .contact-curate, .ig-curate, .back-button-curate {
+  .info-curate {
      a {
       letter-spacing: 0.3vw;
       font-size: 30px;
@@ -297,11 +297,11 @@ and (max-width : 568px)
   }
 
   #code-path {
+    margin-top: 250px;
     text-align: center;
-    margin: 0 auto;
       h1 {
         writing-mode: horizontal-tb;
-        font-size: 70px;
+        font-size: 100px;
         font-weight: lighter;
       }
       a {
@@ -309,7 +309,7 @@ and (max-width : 568px)
       }
     }
 
-  .contact, .ig, .back-button {
+  .info-code {
      a {
       letter-spacing: 0.3vw;
       font-size: 30px;
@@ -334,10 +334,10 @@ and (max-width : 568px)
   }
 
   #curate-path {
+    margin-top: 250px;
     text-align: center;
-    margin: 0 auto;
       h1 {
-        font-size: 70px;
+        font-size: 100px;
         font-weight: lighter;
         writing-mode: horizontal-tb;
       }
@@ -346,7 +346,7 @@ and (max-width : 568px)
       }
     }
 
-  .contact-curate, .ig-curate, .back-button-curate {
+  .info-curate {
      a {
       letter-spacing: 0.3vw;
       font-size: 30px;
