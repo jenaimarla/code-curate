@@ -26,6 +26,7 @@
     margin: 0 auto;
     text-align: center;
     h1 {
+      color: #ff0000;
       font-family: 'Anton';
       font-size: 250px;
       font-weight: bold;
@@ -78,6 +79,7 @@ and (max-width : 812px)
     }
 
   .name {
+    margin-top: 200px;
     text-align:center;
     h1 {
       font-size: 100px;
@@ -89,7 +91,7 @@ and (max-width : 812px)
   }
 
   .footer-home {
-      margin-top: 430px;
+      margin-top: 400px;
     h1 {
       font-size: 10px;
     }
@@ -105,6 +107,18 @@ and (max-width : 667px)
 
 {
 
+   .name {
+    margin-top: 200px;
+    text-align:center;
+    h1 {
+      font-size: 50px;
+    }
+    a {
+      text-decoration: none;
+      color: #ff0000;
+    }
+  }
+
  .footer-home {
     h1 {
       margin-top: 290px;
@@ -119,6 +133,18 @@ and (min-width : 414px)
 and (max-width : 736px)
 
 {
+
+  .name {
+    margin-top: 200px;
+    text-align:center;
+    h1 {
+      font-size: 50px;
+    }
+    a {
+      text-decoration: none;
+      color: #ff0000;
+    }
+  }
 
   .footer-home {
       h1 {
@@ -159,9 +185,10 @@ html {
     }
 
   .name {
+    margin-top: 200px;
     text-align:center;
     h1 {
-      font-size: 90px;
+      font-size: 50px;
     }
     a {
       text-decoration: none;
