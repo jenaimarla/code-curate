@@ -5,10 +5,7 @@
 
 // ANIMATION POUR LE FLIP
 
-@font-face {
-   font-family: 'ResotYg';
-   src: url('/assets/ResotYg.otf')
-}
+
 
   .flipShow {
     animation: flipShow 2s ease;
@@ -47,7 +44,7 @@
   text-align: center;
   margin: 0 auto;
    h1 {
-    font-family: 'ResotYg';
+    font-family: 'Anton';
   }
 }
 
@@ -60,7 +57,7 @@
   line-height: 1;
   text-align: center;
   h1 {
-    font-family: 'ResotYg';
+    font-family: 'Anton';
     font-size: 7vw;
     color: #ff0000;
     font-weight: ligher;
@@ -70,7 +67,7 @@
 #code-path {
   text-align: left;
   h1 {
-    font-family: 'ResotYg';
+    font-family: 'Anton';
     font-size: 10vw;
     writing-mode: vertical-rl;
   }
@@ -117,7 +114,7 @@
   text-align: center;
   margin: 0 auto;
   h1 {
-    font-family: 'ResotYg';
+    font-family: 'Anton';
   }
 }
 
@@ -126,7 +123,7 @@
 //   h1 {
 //     font-weight: lighter;
 //     font-size: 10vw;
-//     font-family: 'ResotYg';
+//     font-family: 'Anton';
 //   }
 // }
 
@@ -136,7 +133,7 @@
   line-height: 1;
   text-align: center;
   h1 {
-    font-family: 'ResotYg';
+    font-family: 'Anton';
     font-weight: lighter;
     font-size: 7vw;
     -webkit-text-stroke-width: 3px;
@@ -148,7 +145,7 @@
 #curate-path {
   text-align: left;
   h1 {
-    font-family: 'ResotYg';
+    font-family: 'Anton';
     font-size: 10vw;
     font-weight: lighter;
     writing-mode: vertical-rl;
