@@ -5,6 +5,11 @@
 
 // ANIMATION POUR LE FLIP
 
+@font-face {
+   font-family: 'ResotYg';
+   src: url('/assets/ResotYg.otf')
+}
+
   .flipShow {
     animation: flipShow 2s ease;
   }
@@ -42,7 +47,7 @@
   text-align: center;
   margin: 0 auto;
    h1 {
-    font-family: 'Anton';
+    font-family: 'ResotYg';
   }
 }
 
@@ -50,21 +55,22 @@
 // CSS POUR LA PAGE CODE
 
 #code-text {
+  text-transform: uppercase;
   letter-spacing: 0.07vw;
   line-height: 1;
   text-align: center;
   h1 {
-    font-family: 'Anton';
-    font-size: 8vw;
+    font-family: 'ResotYg';
+    font-size: 7vw;
     color: #ff0000;
-    font-weight: bolder;
+    font-weight: ligher;
   }
 }
 
 #code-path {
   text-align: left;
   h1 {
-    font-family: 'Anton';
+    font-family: 'ResotYg';
     font-size: 10vw;
     writing-mode: vertical-rl;
   }
@@ -83,7 +89,7 @@
    h1, a {
     text-decoration: none;
     font-weight: lighter;
-    font-size: 50px;
+    font-size: 30px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #ff0000;
     color: #fffff0;
@@ -111,26 +117,28 @@
   text-align: center;
   margin: 0 auto;
   h1 {
-    font-family: 'Anton';
+    font-family: 'ResotYg';
   }
 }
 
-#curate-path {
-  text-align: right;
-  h1 {
-    font-size: 10vw;
-    font-family: 'Anton';
-  }
-}
+// #curate-path {
+//   text-align: right;
+//   h1 {
+//     font-weight: lighter;
+//     font-size: 10vw;
+//     font-family: 'ResotYg';
+//   }
+// }
 
 #curate-text {
+  text-transform: uppercase;
   letter-spacing: 0.07vw;
-  line-height: 1.1;
+  line-height: 1;
   text-align: center;
   h1 {
-    font-family: 'Anton';
+    font-family: 'ResotYg';
     font-weight: lighter;
-    font-size: 8vw;
+    font-size: 7vw;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #ff0000;
     color: #fffff0;
@@ -140,7 +148,8 @@
 #curate-path {
   text-align: left;
   h1 {
-    font-size: 150px;
+    font-family: 'ResotYg';
+    font-size: 10vw;
     font-weight: lighter;
     writing-mode: vertical-rl;
     // text-orientation: upright;
@@ -155,11 +164,12 @@
 
 .info-curate {
   h1 {
+    letter-spacing: 1px;
     font-weight: lighter;
   }
    a {
     text-decoration:none;
-    font-size: 50px;
+    font-size: 30px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ff0000;
     color: #ff0000;
@@ -176,7 +186,6 @@ and (min-width : 375px)
 and (max-width : 812px)
 {
 
-
   .flex-curate {
     display: inline-block;
   }
@@ -190,11 +199,11 @@ and (max-width : 812px)
 
 
   #code-text {
-    letter-spacing: -0.3vw;
     line-height: 1.1;
     text-align: center;
     margin: 0 auto;
     h1 {
+      letter-spacing: 1px;
       font-size: 50px;
       font-weight: lighter;
     }
@@ -208,7 +217,7 @@ and (max-width : 812px)
     margin: 0 auto;
       h1 {
         writing-mode: horizontal-tb;
-        font-size: 100px;
+        font-size: 70px;
         font-weight: lighter;
       }
       a {
@@ -219,7 +228,7 @@ and (max-width : 812px)
   .info-code {
      a {
       letter-spacing: 0.3vw;
-      font-size: 30px;
+      font-size: 25px;
       color: #fffff0;
       font-weight: lighter;
     }
@@ -256,7 +265,7 @@ and (max-width : 812px)
   .info-curate {
      a {
       letter-spacing: 0.3vw;
-      font-size: 30px;
+      font-size: 25px;
       color: #ff0000;
       font-weight: lighter;
     }
@@ -301,7 +310,7 @@ and (max-width : 568px)
     text-align: center;
       h1 {
         writing-mode: horizontal-tb;
-        font-size: 100px;
+        font-size: 70px;
         font-weight: lighter;
       }
       a {
@@ -312,7 +321,7 @@ and (max-width : 568px)
   .info-code {
      a {
       letter-spacing: 0.3vw;
-      font-size: 30px;
+      font-size: 25px;
       color: #fffff0;
       font-weight: lighter;
     }
@@ -324,9 +333,9 @@ and (max-width : 568px)
     text-align: center;
     margin: 0 auto;
     h1 {
-      font-size: 40px;
+      font-size: 38px;
       font-weight: lighter;
-      -webkit-text-stroke-width: 2.1px;
+      -webkit-text-stroke-width: 2px;
       -webkit-text-stroke-color: #ff0000;
       color: #fffff0;
     }
@@ -337,7 +346,7 @@ and (max-width : 568px)
     margin-top: 250px;
     text-align: center;
       h1 {
-        font-size: 100px;
+        font-size: 60px;
         font-weight: lighter;
         writing-mode: horizontal-tb;
       }
@@ -349,7 +358,7 @@ and (max-width : 568px)
   .info-curate {
      a {
       letter-spacing: 0.3vw;
-      font-size: 30px;
+      font-size: 25px;
       color: #ff0000;
       font-weight: lighter;
     }
@@ -358,7 +367,7 @@ and (max-width : 568px)
   .footer {
     .copyright {
       h1 {
-        font-size: 11px;
+        font-size: 10px;
       }
     }
   }
