@@ -54,12 +54,12 @@
 #code-text {
   text-transform: uppercase;
   letter-spacing: 0.07vw;
-  line-height: 1;
+  line-height: 1.2;
   text-align: center;
   h1 {
     font-family: 'Anton';
     font-size: 7vw;
-    color: #ff0000;
+    color: #252525;
     font-weight: ligher;
   }
 }
@@ -67,15 +67,16 @@
 #code-path {
   text-align: left;
   h1 {
+    height: 100vh;
+    padding: 20px;
+    background-color: #00ff26;
     font-family: 'Anton';
     font-size: 10vw;
     writing-mode: vertical-rl;
   }
   a {
     text-decoration: none;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #ff0000;
-    color: #fffff0;
+    color: #fdfdfd;
     font-weight: lighter;
   }
   }
@@ -88,63 +89,35 @@
     font-weight: lighter;
     font-size: 30px;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #ff0000;
+    -webkit-text-stroke-color: #252525;
     color: #fffff0;
   }
 }
 
-.footer {
-  padding-top: 50px;
-}
-
-.copyright {
-  h1 {
-    font-weight: lighter;
-    font-size: 15px;
-    letter-spacing: 1px;
-    color: #ff0000;
-  }
-}
 
 // CSS POUR LA PAGE DE CURATE
-
-.info-curate, .copyright {
-  letter-spacing: -0.1vw;
-  line-height: 1.1;
-  text-align: center;
-  margin: 0 auto;
-  h1 {
-    font-family: 'Anton';
-  }
-}
-
-// #curate-path {
-//   text-align: right;
-//   h1 {
-//     font-weight: lighter;
-//     font-size: 10vw;
-//     font-family: 'Anton';
-//   }
-// }
 
 #curate-text {
   text-transform: uppercase;
   letter-spacing: 0.07vw;
-  line-height: 1;
+  line-height: 1.2;
   text-align: center;
   h1 {
     font-family: 'Anton';
     font-weight: lighter;
     font-size: 7vw;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #ff0000;
-    color: #fffff0;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #252525;
+    color: #fdfdfd;
   }
 }
 
 #curate-path {
   text-align: left;
   h1 {
+    height: 100vh;
+    padding: 20px;
+    background-color: #00ff26;
     font-family: 'Anton';
     font-size: 10vw;
     font-weight: lighter;
@@ -154,13 +127,17 @@
   a {
     text-decoration: none;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #ff0000;
-    color: #ff0000;
+    -webkit-text-stroke-color: #252525;
+    color: #252525;
   }
   }
 
 .info-curate {
+  line-height: 1.1;
+  text-align: center;
+  margin: 0 auto;
   h1 {
+    font-family: 'Anton';
     letter-spacing: 1px;
     font-weight: lighter;
   }
@@ -168,8 +145,8 @@
     text-decoration:none;
     font-size: 30px;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #ff0000;
-    color: #ff0000;
+    -webkit-text-stroke-color: #252525;
+    color: #252525;
   }
 }
 
@@ -239,9 +216,9 @@ and (max-width : 812px)
     h1 {
       font-size: 50px;
       font-weight: lighter;
-      -webkit-text-stroke-width: 2.1px;
-      -webkit-text-stroke-color: #ff0000;
-      color: #fffff0;
+      -webkit-text-stroke-width: 1.3px;
+      -webkit-text-stroke-color: #252525;
+      color: #fdfdfd;
     }
 
   }
@@ -255,7 +232,7 @@ and (max-width : 812px)
         writing-mode: horizontal-tb;
       }
       a {
-        color: #ff0000;
+        color: #252525;
       }
     }
 
@@ -263,7 +240,7 @@ and (max-width : 812px)
      a {
       letter-spacing: 0.3vw;
       font-size: 25px;
-      color: #ff0000;
+      color: #252525;
       font-weight: lighter;
     }
   }
@@ -332,9 +309,9 @@ and (max-width : 568px)
     h1 {
       font-size: 38px;
       font-weight: lighter;
-      -webkit-text-stroke-width: 2px;
-      -webkit-text-stroke-color: #ff0000;
-      color: #fffff0;
+      -webkit-text-stroke-width: 1.3px;
+      -webkit-text-stroke-color: #252525;
+      color: #fdfdfd;
     }
 
   }
@@ -348,7 +325,7 @@ and (max-width : 568px)
         writing-mode: horizontal-tb;
       }
       a {
-        color: #ff0000;
+        color: #252525;
       }
     }
 
@@ -356,7 +333,7 @@ and (max-width : 568px)
      a {
       letter-spacing: 0.3vw;
       font-size: 25px;
-      color: #ff0000;
+      color: #252525;
       font-weight: lighter;
     }
   }
@@ -368,7 +345,6 @@ and (max-width : 568px)
       }
     }
   }
-
 
 }
 
