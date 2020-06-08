@@ -1,7 +1,13 @@
 // Place all the styles related to the codes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+@font-face {
+    font-family: 'Karelia Web Outtakes';
+    src: url('/assets/KareliaWeb-Outtakes.woff2') format('woff2'),
+         url('/assets/KareliaWeb-Outtakes.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 // ANIMATION POUR LE FLIP
 
@@ -36,11 +42,11 @@
   justify-content: space-around;
 }
 
-.info-code {
+.info-code, .info-curate {
   text-align: center;
   margin: 0 auto;
    h1 {
-    font-family: 'Cinzel';
+    font-family: 'Karelia Web Outtakes';
   }
 }
 
@@ -48,12 +54,13 @@
 // CSS POUR LA PAGE CODE
 
 #code-text {
+  text-transform: uppercase;
   margin-top: 400px;
   letter-spacing: 0.07vw;
   line-height: 1.2;
   text-align: center;
   h1 {
-    font-family: 'Cinzel';
+    font-family: 'Karelia Web Outtakes';
     font-size: 50px;
     color: black;
     font-weight: ligher;
@@ -70,14 +77,13 @@
   text-align: left;
   h1 {
     padding: 50px;
-    font-family: 'Cinzel';
+    font-family: 'Karelia Web Outtakes';
     font-size: 70px;
     writing-mode: vertical-rl;
   }
   a {
     text-decoration: none;
     color: black;
-    font-weight: lighter;
   }
   }
 
@@ -94,7 +100,6 @@
    h1, a {
     margin-top: 24px;
     text-decoration: none;
-    font-weight: lighter;
     font-size: 15px;
     color: black;
   }
@@ -104,13 +109,13 @@
 // CSS POUR LA PAGE DE CURATE
 
 #curate-text {
+  text-transform: uppercase;
   margin-top: 500px;
   letter-spacing: 0.07vw;
   line-height: 1.2;
   text-align: center;
   h1 {
-    font-family: 'Cinzel';
-    font-weight: lighter;
+    font-family: 'Karelia Web Outtakes';
     font-size: 50px;
     color: black;
   }
@@ -126,9 +131,8 @@
   text-align: left;
   h1 {
     padding: 50px;
-    font-family: 'Cinzel';
+    font-family: 'Karelia Web Outtakes';
     font-size: 70px;
-    font-weight: lighter;
     writing-mode: vertical-rl;
     // text-orientation: upright;
   }
@@ -141,7 +145,6 @@
 .info-curate {
   float: right;
   margin-top: 20px;
-  margin-left: 100px;
   border-top-style: solid;
   border-width: 1px;
   border-radius: 50%;
@@ -149,10 +152,9 @@
   height: 70px;
   letter-spacing: 0.07vw;
    h1, a {
-    margin-left: 6px;
+    margin-left: 2px;
     margin-top: 24px;
     text-decoration: none;
-    font-weight: lighter;
     font-size: 15px;
     color: black;
   }
@@ -186,7 +188,7 @@
 //     h1 {
 //       letter-spacing: 1px;
 //       font-size: 50px;
-//       font-weight: lighter;
+//
 //     }
 //     a {
 //       font-size: 50px;
@@ -199,7 +201,7 @@
 //       h1 {
 //         writing-mode: horizontal-tb;
 //         font-size: 70px;
-//         font-weight: lighter;
+//
 //       }
 //       a {
 //         color: #fffff0;
@@ -211,7 +213,7 @@
 //       letter-spacing: 0.3vw;
 //       font-size: 25px;
 //       color: #fffff0;
-//       font-weight: lighter;
+//
 //     }
 //   }
 
@@ -222,7 +224,7 @@
 //     margin: 0 auto;
 //     h1 {
 //       font-size: 50px;
-//       font-weight: lighter;
+//
 //       -webkit-text-stroke-width: 1.3px;
 //       -webkit-text-stroke-color: #252525;
 //       color: #fdfdfd;
@@ -235,7 +237,7 @@
 //     margin: 0 auto;
 //       h1 {
 //         font-size: 100px;
-//         font-weight: lighter;
+//
 //         writing-mode: horizontal-tb;
 //       }
 //       a {
@@ -248,7 +250,7 @@
 //       letter-spacing: 0.3vw;
 //       font-size: 25px;
 //       color: #252525;
-//       font-weight: lighter;
+//
 //     }
 //   }
 
@@ -279,7 +281,7 @@ and (max-width : 568px)
   line-height: 1.2;
   text-align: center;
   h1 {
-    font-family: 'Cinzel';
+    font-family: 'Karelia Web Outtakes';
     font-size: 20px;
     color: black;
     font-weight: ligher;
@@ -296,14 +298,13 @@ and (max-width : 568px)
 
   h1 {
     padding: 50px;
-    font-family: 'Cinzel';
+    font-family: 'Karelia Web Outtakes';
     font-size: 50px;
     writing-mode: vertical-rl;
   }
   a {
     text-decoration: none;
     color: black;
-    font-weight: lighter;
   }
   }
 
@@ -319,7 +320,6 @@ and (max-width : 568px)
    h1, a {
     margin-top: 24px;
     text-decoration: none;
-    font-weight: lighter;
     font-size: 15px;
     color: black;
   }
@@ -334,8 +334,7 @@ and (max-width : 568px)
   line-height: 1.2;
   text-align: center;
   h1 {
-    font-family: 'Cinzel';
-    font-weight: lighter;
+    font-family: 'Karelia Web Outtakes';
     font-size: 20px;
     color: black;
   }
@@ -351,9 +350,8 @@ and (max-width : 568px)
   text-align: left;
   h1 {
     padding: 50px;
-    font-family: 'Cinzel';
+    font-family: 'Karelia Web Outtakes';
     font-size: 50px;
-    font-weight: lighter;
     writing-mode: vertical-rl;
     // text-orientation: upright;
   }
@@ -377,7 +375,6 @@ and (max-width : 568px)
     margin-left: 6px;
     margin-top: 24px;
     text-decoration: none;
-    font-weight: lighter;
     font-size: 15px;
     color: black;
   }
