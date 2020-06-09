@@ -338,6 +338,11 @@ and (max-width : 568px)
 {
 
 
+@keyframes moveCurate {
+  from { top: 50px; left: 0px; }
+  to   { top: 0px; left: 20px; }
+}
+
   .name {
   margin-top: 100px;
   position: relative;
@@ -406,6 +411,7 @@ and (max-width : 568px)
 }
 
 .name-curate {
+   -webkit-animation: moveCurate 4s infinite alternate;
   margin-top: 100px;
   margin-left: 100px;
   position: absolute;
