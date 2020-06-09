@@ -3,8 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @font-face {
     font-family: 'Karelia Web Outtakes';
-    src: asset-path('KareliaWeb-Outtakes') format('woff2'),
-         asset-path('KareliaWeb-Outtakes') format('woff');
+    src: font-url( asset-path('KareliaWeb-Outtakes.woff2')) format('woff2'),
+         font-url( asset-path('KareliaWeb-Outtakes.woff')) format('woff');
     font-weight: normal;
     font-style: normal;
 }
