@@ -339,8 +339,8 @@ and (max-width : 568px)
 
 
 @keyframes moveCurate {
-  from { top: 50px; left: 0px; }
-  to   { top: 0px; left: 20px; }
+  from { top: 50px; left: -50px; }
+  to   { top: 0px; left: -10px; }
 }
 
   .name {
@@ -414,7 +414,7 @@ and (max-width : 568px)
    -webkit-animation: moveCurate 4s infinite alternate;
   margin-top: 100px;
   margin-left: 100px;
-  position: absolute;
+  position: relative;
   width: 250px;
   height: 400px;
   border-right-style: solid;
@@ -422,6 +422,7 @@ and (max-width : 568px)
   border-radius: 50%;
   border-color: #00ff26;
   h1 {
+    margin-right: 20px;
     margin-left: 170px;
     margin-top: 220px;
   }
