@@ -9,32 +9,6 @@
     font-style: normal;
 }
 
-// ANIMATION POUR LE FLIP
-
-  // .flipShow {
-  //   animation: flipShow 2s ease;
-  // }
-
-  // .flipHide {
-  //   animation: flipHide 2s ease;
-  // }
-
-  // @keyframes flipShow {
-  //   0% { transform: none; }
-  //   25% { transform: translate3d(10px 10px 10px); }
-  //   50% { transform: translate3d(20px 20px 20px); }
-  //   75% { transform: translate3d(10px 10px 10px); }
-  //   100% { transform: none; }
-  // }
-
-  // @keyframes flipHide {
-  //   0% { transform: none; }
-  //   25% { transform: translate3d(10px 10px 10px); }
-  //   50% { transform: translate3d(20px 20px 20px); }
-  //   75% { transform: translate3d(10px 10px 10px); }
-  //   100% { transform: none; }
-  // }
-
  @keyframes movePath {
   from {
     transform: rotate(0deg);
@@ -180,102 +154,8 @@ body {
 }
 
 
-// // RESPONSIVENESS
 
-// // IPHONE X LANDSCAPE PORTRAIT
-// @media only screen
-// and (min-width : 375px)
-// and (max-width : 812px)
-// {
-
-//   .flex-curate {
-//     display: inline-block;
-//   }
-
-//   .flex {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: space-around;
-//     flex-direction: column-reverse;
-//   }
-
-
-//   #code-text {
-//     line-height: 1.1;
-//     text-align: center;
-//     margin: 0 auto;
-//     h1 {
-//       letter-spacing: 1px;
-//       font-size: 50px;
-//
-//     }
-//     a {
-//       font-size: 50px;
-//     }
-//   }
-
-//   #code-path {
-//     text-align: center;
-//     margin: 0 auto;
-//       h1 {
-//         writing-mode: horizontal-tb;
-//         font-size: 70px;
-//
-//       }
-//       a {
-//         color: #fffff0;
-//       }
-//     }
-
-//   .info-code {
-//      a {
-//       letter-spacing: 0.3vw;
-//       font-size: 25px;
-//       color: #fffff0;
-//
-//     }
-//   }
-
-//   #curate-text {
-//     letter-spacing: 0.2vw;
-//     line-height: 1.1;
-//     text-align: center;
-//     margin: 0 auto;
-//     h1 {
-//       font-size: 50px;
-//
-//       -webkit-text-stroke-width: 1.3px;
-//       -webkit-text-stroke-color: #252525;
-//       color: #fdfdfd;
-//     }
-
-//   }
-
-//   #curate-path {
-//     text-align: center;
-//     margin: 0 auto;
-//       h1 {
-//         font-size: 100px;
-//
-//         writing-mode: horizontal-tb;
-//       }
-//       a {
-//         color: #252525;
-//       }
-//     }
-
-//   .info-curate {
-//      a {
-//       letter-spacing: 0.3vw;
-//       font-size: 25px;
-//       color: #252525;
-//
-//     }
-//   }
-
-// }
-
-// IPHONE 5&5s LANDSCAPE PORTRAIT
+// RESPONSIVENESS
 @media only screen
 and (min-width : 320px)
 and (max-width : 568px)
