@@ -53,11 +53,8 @@ body {
 }
 
 
-.footer-home {
+footer {
   margin-top: 680px;
-}
-
-.copyright-home {
   text-align: center;
   p {
     font-family: 'Karelia Web Outtakes';
@@ -66,6 +63,7 @@ body {
     color: #252525;
   }
 }
+
 
 
 // //RESPONSIVENESS
@@ -77,7 +75,6 @@ and (max-width : 568px)
 .introduction {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .description {
@@ -85,9 +82,11 @@ and (max-width : 568px)
 }
 
 .intro {
-  margin-left: 15px;
-  text-align: center;
-  margin-top: 30px;
+  margin-left: 0px;
+  text-align: left;
+  margin-top: 10px;
+  border-top-style: solid;
+  border-width: 1px;
 
 }
 

@@ -25,7 +25,6 @@ body {
   line-height: 1.2;
   text-align: left;
   margin-left: 10px;
-  position: absolute;
   p {
     font-family: 'Karelia Web Outtakes';
     font-size: 13px;
@@ -54,10 +53,20 @@ body {
     position: absolute;
     height: 800px;
     margin-left: 350px;
+    margin-top: -100px;
   }
   }
 
-  .projects {
+  .projets {
+    width: 400px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-bottom-style: solid;
+    border-width: 1px;
+  }
+
+  .projects, .projets {
     p {
       font-family: 'Karelia Web Outtakes';
       font-size: 13px;
@@ -88,7 +97,6 @@ body {
   letter-spacing: 0.07vw;
   line-height: 1.2;
   text-align: left;
-  position: absolute;
   p {
     font-family: 'Karelia Web Outtakes';
     font-size: 13px;
@@ -121,20 +129,18 @@ body {
   }
 
   .curate1 {
-    margin-left: 890px;
-    margin-top: 220px;
+    margin-left: 850px;
+    margin-top: 100px;
     transform: rotate(-19deg)
   }
 
   .curate2 {
-    margin-left: 800px;
+    margin-left: 770px;
     margin-top: 30px;
     transform: rotate(-19deg)
   }
 
-  .footer-page {
-    margin-top: 600px;
-  }
+
 
 
 // RESPONSIVENESS
@@ -164,6 +170,10 @@ and (max-device-width : 568px)
     margin-left: -160px;
     margin-top: 50px;
     }
+  }
+
+  .projets {
+    width: 250px;
   }
 
     .project1 {
@@ -206,15 +216,15 @@ and (max-device-width : 568px)
   }
 
 .curate1 {
-    margin-left: -10px;
-    margin-top: 400px;
-    transform: rotate(72deg)
+    margin-left: 110px;
+    margin-top: 200px;
+    transform: rotate(-19deg)
   }
 
   .curate2 {
-    margin-left: 100px;
-    margin-top: 230px;
-    transform: rotate(67deg)
+    margin-left: 50px;
+    margin-top: 80px;
+    transform: rotate(-19deg)
   }
 
 
