@@ -24,10 +24,9 @@ body {
   letter-spacing: 0.07vw;
   line-height: 1.2;
   text-align: left;
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 10px;
   position: absolute;
-  h1 {
+  p {
     font-family: 'Karelia Web Outtakes';
     font-size: 13px;
     color: black;
@@ -38,13 +37,14 @@ body {
 #code-path {
   width: 600px;
   text-align: left;
-  margin-left: 50px;
-  h1 {
+  margin-left: 10px;
+  p {
     font-family: 'Karelia Web Outtakes';
     font-size: 15px;
+    font-weight: ligher;
   }
   a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
   }
   }
@@ -57,36 +57,57 @@ body {
   }
   }
 
+  .projects {
+    p {
+      font-family: 'Karelia Web Outtakes';
+      font-size: 13px;
+    }
+  }
+
+  .project1 {
+    margin-left: 740px;
+    margin-top: 290px;
+  }
+
+  .project2 {
+    margin-left: 650px;
+    margin-top: 70px;
+  }
+
+  .project3 {
+    margin-left: 590px;
+    margin-top: 60px;
+  }
 
 
 // CSS POUR LA PAGE DE CURATE
 
 #curate-text {
   width: 600px;
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 10px;
   letter-spacing: 0.07vw;
   line-height: 1.2;
   text-align: left;
   position: absolute;
-  h1 {
+  p {
     font-family: 'Karelia Web Outtakes';
     font-size: 13px;
     color: black;
+    font-weight: ligher;
   }
 }
 
 #curate-path {
   width: 600px;
   text-align: left;
-  margin-left: 50px;
-  h1 {
+  margin-left: 10px;
+  p {
     font-family: 'Karelia Web Outtakes';
     font-size: 15px;
-    // text-orientation: upright;
+    font-weight: ligher;
   }
   a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
   }
   }
@@ -99,9 +120,21 @@ body {
   }
   }
 
+  .curate1 {
+    margin-left: 890px;
+    margin-top: 220px;
+    transform: rotate(-19deg)
+  }
+
+  .curate2 {
+    margin-left: 800px;
+    margin-top: 30px;
+    transform: rotate(-19deg)
+  }
+
   .footer-page {
-  margin-top: 800px;
-}
+    margin-top: 600px;
+  }
 
 
 // RESPONSIVENESS
@@ -127,12 +160,27 @@ and (max-device-width : 568px)
 .svg-code {
     #Calque_1 {
     position: absolute;
-
     height: 600px;
     margin-left: -160px;
     margin-top: 50px;
     }
   }
+
+    .project1 {
+      margin-left: 130px;
+      margin-top: 260px;
+    }
+
+    .project2 {
+      margin-left: 50px;
+      margin-top: 50px;
+    }
+
+    .project3 {
+      margin-left: 20px;
+      margin-top: 40px;
+    }
+
 
 
 
@@ -140,7 +188,6 @@ and (max-device-width : 568px)
 
 #curate-text {
   width: 300px;
-  margin-top: 50px;
   letter-spacing: 0.07vw;
   line-height: 1.2;
 }
@@ -158,6 +205,17 @@ and (max-device-width : 568px)
     }
   }
 
+.curate1 {
+    margin-left: -10px;
+    margin-top: 400px;
+    transform: rotate(72deg)
+  }
+
+  .curate2 {
+    margin-left: 100px;
+    margin-top: 230px;
+    transform: rotate(67deg)
+  }
 
 
 }
