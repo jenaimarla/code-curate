@@ -1,21 +1,29 @@
-<div class="main-container">
-  <div class="flipShow">
-      <div class='flex-curate'>
-        <div id='curate-path'>
-          <h1>  <%= link_to '2 CURATE', codes_path %></h1>
-        </div>
 
-        <div id="curate-text">
-          <h1>Second C.
-            <br>Independent curator based in Belgium.
-            On your marks, set, go.
-            Curating your art. Against the flow. The art of curating.
-            Exhibition organisation. For the culture.</h1>
-        </div>
-      </div>
 
-      <div class="info-curate">
-        <h1><%= link_to 'HOME', root_path %></h1>
-      </div>
-  </div>
+
+<div id='curate-path'>
+  <h1>  <%= link_to '1 CODE', codes_path %>, <%= link_to 'HOME', root_path %></h1></h1>
 </div>
+
+<div id="curate-text">
+  <h1>Second C.
+    <br>Independent curator based in Belgium.
+        On your marks, set, go.
+        Curating your art. Against the flow. The art of curating.
+        Exhibition organisation. For the culture.</h1>
+</div>
+
+
+<div class='svg-curate'>
+  <%= render partial: 'shared/curate' %>
+</div>
+
+ <footer class='footer-page'>
+  <span class="copyright-home">
+    <h1> © 2C 2020 </h1>
+  </span>
+</footer>
+
+
+
+

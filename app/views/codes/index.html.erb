@@ -1,28 +1,32 @@
 
-<div class="main-container">
-  <div class="flipHide">
-    <div class='flex'>
-      <div id="code-text">
-          <h1>First C.
-            <br>Freelance developper based in Belgium.
-            Portfolios to show your art.
-          Websites to sell or not your creations.
-          Applications to develop your ideas.
-          Front-end gets an extra bonus.
-          </h1>
-      </div>
 
-      <div id='code-path'>
-        <h1> <%= link_to '1 CODE', curates_path %></h1>
-      </div>
-
-    </div>
-
-    <div class="info-code">
-      <h1><%= link_to 'HOME', root_path %></h1>
-    </div>
+  <div id="code-text">
+      <h1>First C.
+        <br>Freelance developper based in Belgium.
+        Portfolios to show your art.
+      Websites to sell or not your creations.
+      Applications to develop your ideas.
+      Front-end gets an extra bonus.
+      </h1>
   </div>
+  <div id='code-path'>
+    <h1> <%= link_to '2 CURATE', curates_path %>, <%= link_to 'HOME', root_path %></h1>
+  </div>
+
+
+
+
+
+<div class='svg-code'>
+  <%= render partial: 'shared/interstella' %>
 </div>
+
+ <footer class='footer-page'>
+  <span class="copyright-home">
+    <h1> © 2C 2020 </h1>
+  </span>
+</footer>
+
 
 
 
