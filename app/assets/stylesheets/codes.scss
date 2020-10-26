@@ -169,80 +169,80 @@ and (max-device-width : 568px)
 
 // CSS POUR LA PAGE CODE
 
-#code-text {
-  width: 300px;
-  letter-spacing: 0.07vw;
-  line-height: 1.2;
-}
+// #code-text {
+//   width: 300px;
+//   letter-spacing: 0.07vw;
+//   line-height: 1.2;
+// }
 
 #code-path {
   width: 300px;
 }
 
-.svg-code {
-    #Calque_1 {
-    position: absolute;
-    height: 600px;
-    margin-left: -160px;
-    margin-top: 50px;
-    }
-  }
+// .svg-code {
+//     #Calque_1 {
+//     position: absolute;
+//     height: 600px;
+//     margin-left: -160px;
+//     margin-top: 50px;
+//     }
+//   }
 
   .projets {
     width: 250px;
   }
 
-    .project1 {
-      margin-left: 130px;
-      margin-top: 260px;
-    }
 
-    .project2 {
-      margin-left: 50px;
-      margin-top: 50px;
-    }
+  .projects {
+    columns: 2;
+  }
 
-    .project3 {
-      margin-left: 20px;
-      margin-top: 40px;
-    }
+  .project {
+  border-style: solid;
+  height: 70px;
+  border-width: 1px;
+  border-radius: 50%;
+  border-color: #00ff26;
+   p {
+    margin-top: -10px;
 
+  }
 
+  }
 
 
 // CSS POUR LA PAGE DE CURATE
 
-#curate-text {
-  width: 300px;
-  letter-spacing: 0.07vw;
-  line-height: 1.2;
-}
+// #curate-text {
+//   width: 300px;
+//   letter-spacing: 0.07vw;
+//   line-height: 1.2;
+// }
 
 #curate-path {
   width: 300px;
 }
 
-.svg-curate {
-    #Calque_1 {
-    position: absolute;
-    height: 600px;
-    margin-left: -160px;
-    margin-top: 50px;
-    }
-  }
+// .svg-curate {
+//     #Calque_1 {
+//     position: absolute;
+//     height: 600px;
+//     margin-left: -160px;
+//     margin-top: 50px;
+//     }
+//   }
 
-.curate1 {
-    margin-left: 110px;
-    margin-top: 200px;
-    transform: rotate(-19deg)
+.projects1 {
+    columns: 1;
+    width: 200px;
+    p {
+    margin-top: 150px;
   }
+}
 
-  .curate2 {
-    margin-left: 50px;
-    margin-top: 80px;
-    transform: rotate(-19deg)
+.project1 {
+  height: 300px;
   }
-
 
 }
 
