@@ -19,19 +19,19 @@ body {
 
 // CSS POUR LA PAGE CODE
 
-#code-text {
-  width: 600px;
-  letter-spacing: 0.07vw;
-  line-height: 1.2;
-  text-align: left;
-  margin-left: 10px;
-  p {
-    font-family: 'Karelia Web Outtakes';
-    font-size: 13px;
-    color: black;
-    font-weight: ligher;
-  }
-}
+// #code-text {
+//   width: 600px;
+//   letter-spacing: 0.07vw;
+//   line-height: 1.2;
+//   text-align: left;
+//   margin-left: 10px;
+//   p {
+//     font-family: 'Karelia Web Outtakes';
+//     font-size: 13px;
+//     color: black;
+//     font-weight: ligher;
+//   }
+// }
 
 #code-path {
   width: 600px;
@@ -48,18 +48,16 @@ body {
   }
   }
 
-  .svg-code {
-    #Calque_1 {
-    position: absolute;
-    height: 800px;
-    margin-left: 350px;
-    margin-top: -100px;
-  }
-  }
+  // .svg-code {
+  //   #Calque_1 {
+  //   position: absolute;
+  //   height: 100px;
+  //   margin-left: 500px;
+  //   }
+  // }
 
   .projets {
     width: 400px;
-    position: absolute;
     margin-left: 10px;
     margin-top: 30px;
     border-bottom-style: solid;
@@ -73,37 +71,42 @@ body {
     }
   }
 
-  .project1 {
-    margin-left: 740px;
-    margin-top: 290px;
+  .projects {
+    margin-top: 100px;
+    columns: 3;
+    text-align: center;
+    height: 580px;
   }
 
-  .project2 {
-    margin-left: 650px;
-    margin-top: 70px;
+.project {
+  border-style: solid;
+  height: 200px;
+  border-width: 1px;
+  border-radius: 50%;
+  border-color: #00ff26;
+   p {
+    margin-top: -10px;
+
   }
 
-  .project3 {
-    margin-left: 590px;
-    margin-top: 60px;
-  }
+}
 
 
 // CSS POUR LA PAGE DE CURATE
 
-#curate-text {
-  width: 600px;
-  margin-left: 10px;
-  letter-spacing: 0.07vw;
-  line-height: 1.2;
-  text-align: left;
-  p {
-    font-family: 'Karelia Web Outtakes';
-    font-size: 13px;
-    color: black;
-    font-weight: ligher;
-  }
-}
+// #curate-text {
+//   width: 600px;
+//   margin-left: 10px;
+//   letter-spacing: 0.07vw;
+//   line-height: 1.2;
+//   text-align: left;
+//   p {
+//     font-family: 'Karelia Web Outtakes';
+//     font-size: 13px;
+//     color: black;
+//     font-weight: ligher;
+//   }
+// }
 
 #curate-path {
   width: 600px;
@@ -120,25 +123,38 @@ body {
   }
   }
 
-.svg-curate {
-    #Calque_1 {
-    position: absolute;
-    height: 700px;
-    margin-left: 550px;
-  }
-  }
+// .svg-curate {
+//     #Calque_1 {
+//     position: absolute;
+//     height: 700px;
+//     margin-left: 550px;
+//   }
+//   }
 
-  .curate1 {
-    margin-left: 850px;
-    margin-top: 100px;
-    transform: rotate(-19deg)
-  }
+.projects1 {
+    columns: 2;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    p {
+    font-family: 'Karelia Web Outtakes';
+    font-size: 13px;
+    font-weight: ligher;
+    margin-top: 200px;
+    margin-left: -200px;
 
-  .curate2 {
-    margin-left: 770px;
-    margin-top: 30px;
-    transform: rotate(-19deg)
   }
+}
+
+.project1 {
+  border-style: solid;
+  height: 400px;
+  border-width: 1px;
+  border-radius: 50%;
+  border-color: #00ff26;
+}
+
+
 
 
 

@@ -38,13 +38,9 @@ body {
 .intro {
   margin-top: 15px;
   margin-right: 15px;
-  a {
-    text-decoration: none;
-    color: black;
-  }
 }
 
-.description, .intro{
+.description, .intro {
   p, h2 {
     font-family: 'Karelia Web Outtakes';
     font-size: 13px;
@@ -53,8 +49,66 @@ body {
 }
 
 
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+  // border-style: solid;
+}
+
+.first, .second {
+  width: 250px;
+  height: 350px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  border-color: #00ff26;
+   a {
+    text-decoration: none;
+    color: black;
+  }
+   p {
+    position: relative;
+    font-family: 'Karelia Web Outtakes';
+    font-size: 15px;
+    font-weight: ligher;
+    margin-left: 100px;
+    margin-top: -10px;
+  }
+
+}
+
+.second {
+  margin-top: 150px;
+  margin-left: -500px;
+}
+
+.extra {
+  height: 250px;
+   p {
+    position: relative;
+    font-family: 'Karelia Web Outtakes';
+    font-size: 13px;
+    font-weight: ligher;
+    margin-left: 85px;
+    margin-top: -10px;
+  }
+}
+
+.other {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 250px;
+  height: 150px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  border-color: #00ff26;
+}
+
+
 footer {
-  margin-top: 680px;
+  // margin-top: 680px;
   text-align: center;
   p {
     font-family: 'Karelia Web Outtakes';

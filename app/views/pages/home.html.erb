@@ -9,13 +9,30 @@
 
     <div class="intro">
         <p> Welcome to a world of 2C to code and curate your projects.
-        <br><%= link_to "CODE", codes_path%>, <%= link_to "CURATE", curates_path%> </p>
     </div>
   </div>
 
   <div class='svg'>
     <%= render partial: 'shared/world' %>
   </div>
+
+<div class="container">
+  <div class="first">
+    <p><%= link_to "CODE", codes_path%></p>
+  </div>
+  <div class="second">
+    <p><%= link_to "CURATE", curates_path%></p>
+  </div>
+</div>
+
+<div class="extra">
+  <div class="other">
+    <p>other world</p>
+
+  </div>
+</div>
+
+
 
 
    <footer>
