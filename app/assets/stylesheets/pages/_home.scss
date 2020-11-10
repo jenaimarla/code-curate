@@ -54,65 +54,32 @@ body {
 .container {
   display: flex;
   justify-content: space-around;
-  padding: 10px;
-  margin-top: 30px;
+  padding: 5px;
+  margin-top: 10px;
   border-style: solid;
   border-width: 1px;
+  width: 200px;
+  height: 700px;
+
+
 }
 
-.first, .second {
-  width: 250px;
-  height: 350px;
+.first, .second, .other {
   border-style: solid;
   border-width: 1px;
-  border-radius: 50%;
-  border-color: #00ff26;
+  padding: 5px;
    a {
     text-decoration: none;
     color: black;
   }
    p {
+    writing-mode: vertical-rl;
+    text-align: center;
     position: relative;
     font-family: 'Karelia Web Outtakes';
     font-size: 15px;
     font-weight: ligher;
-    margin-left: 100px;
-    margin-top: -10px;
   }
-
-}
-
-.second {
-  margin-top: 150px;
-  margin-left: -500px;
-}
-
-.extra {
-  width: 500px;
-  padding: 10px;
-  margin-top: 40px;
-  border-style: solid;
-  border-width: 1px;
-  // height: 250px;
-   p {
-    position: relative;
-    font-family: 'Karelia Web Outtakes';
-    font-size: 13px;
-    font-weight: ligher;
-    margin-left: 85px;
-    margin-top: -10px;
-  }
-}
-
-.other {
-  margin-top: 10px;
-  margin-left: 100px;
-  width: 250px;
-  height: 150px;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 50%;
-  border-color: #00ff26;
 }
 
 
@@ -153,27 +120,24 @@ and (max-width : 568px)
 
 }
 
-.first, .second {
-  width: 100px;
-  height: 200px;
+.container {
+  margin-top: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+  width: 350px;
+  height: 150px;
+}
+
+.first, .second, .other {
+  height: 40px;
+  padding: 0px;
    p {
-    font-size: 13px;
-    margin-left: 30px;
-    margin-top: -10px;
+    writing-mode: horizontal-tb;
   }
 }
 
-.other {
-  width: 150px;
-  height: 50px;
-}
-
-.extra {
-   p {
-    margin-left: 40px;
-    margin-top: -10px;
-  }
-}
 
 .svg {
   position: absolute;
@@ -183,6 +147,7 @@ and (max-width : 568px)
   margin-top: 50px;
 }
 }
+
 }
 
 
