@@ -121,19 +121,20 @@ and (max-width : 568px)
 }
 
 .container {
-  margin-top: 430px;
+  margin-top: 420px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   flex-direction: column-reverse;
-  width: 350px;
-  height: 150px;
+  width: 400px;
+  height: 110px;
 }
 
 .first, .second, .other {
-  height: 40px;
+  height: 30px;
   padding: 0px;
    p {
+    font-size: 10px;
     writing-mode: horizontal-tb;
   }
 }
@@ -147,6 +148,14 @@ and (max-width : 568px)
   margin-top: 50px;
 }
 }
+
+footer {
+  p {
+    font-size: 7px;
+
+  }
+}
+
 
 }
 
