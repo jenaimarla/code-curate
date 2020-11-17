@@ -14,10 +14,10 @@ body {
 }
 
 .svg {
+  right: 0;
   position: absolute;
   #Calque_1 {
     height: 700px;
-    margin-left: 350px;
   }
 }
 
@@ -59,9 +59,7 @@ body {
   border-style: solid;
   border-width: 1px;
   width: 200px;
-  height: 700px;
-
-
+  height: 100vh;
 }
 
 .first, .second, .other {
@@ -84,8 +82,9 @@ body {
 
 
 footer {
-  // margin-top: 680px;
+  bottom: 0;
   text-align: center;
+  width: 100%;
   p {
     font-family: 'Karelia Web Outtakes';
     font-size: 10px;
@@ -121,12 +120,13 @@ and (max-width : 568px)
 }
 
 .container {
-  margin-top: 420px;
+  // margin-top: 420px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   flex-direction: column-reverse;
-  width: 385px;
+  width: 100%;
+  bottom:0;
   height: 110px;
 }
 
@@ -142,14 +142,19 @@ and (max-width : 568px)
 
 .svg {
   position: absolute;
+  bottom: 0;
   #Calque_1 {
   height: 400px;
-  margin-left: -10px;
-  margin-top: 50px;
+  // margin-left: -10px;
+  // margin-top: 50px;
 }
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
   p {
     font-size: 7px;
 
